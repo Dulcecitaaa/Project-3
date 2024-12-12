@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Project 3</title>
+    </head>
+<body>
+    <h1 style="color: black; 
+    text-shadow: 3px 3px pink; 
+    text-align: center;">GUESS MY NUMBER</h1>
+    <h2 style="text-align: center;">Guess the number between 1 and 100</h2>
+    
+    <div class="container" 
+    style="background-color: rgb(238, 240, 132);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;">
+    <div class="parent">
+        <div class="child" 
+        style="background-color: rgb(170, 141, 238);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;">
+            
+            <div>High Score: <span id="highScore"> 0 </span></div>
+        </div> 
+    </div>
+    <div class="guesNumBlock" 
+    style="background-color: pink;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;">
+        <img src="gif/confusedCharacter.gif" style="margin-left: 290px;">
+        <div class="btnStyle" style="margin-left: 400px;">
+            <input type="number" id="guessInput" placeholder="Guess a Number">
+            <button id="checkButton">Check</button>
+        </div>
+        <p id="message"></p>
+        <p style="text-align: center;"> Guesses Left: <span id="guessesLeft"> 10 </span></p>
+        <script src="script.js"></script> 
+    </div>
+    </div>
+  
+
+
+
+
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

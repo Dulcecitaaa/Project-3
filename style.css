@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(118, 245, 245);
+}
+.container1 {
+    background-color: rgb(168, 248, 204);
+    width: 900px;
+    height: 900px;
+    margin-left: 180px;
+}
+.container2 {
+    background-color: pink;
+}
+.parent {
+    display: inline-flex;
+}
+.child1 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.child2 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
